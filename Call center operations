@@ -1,0 +1,83 @@
+lan=("english=1\n,tamil=2\n,kannada=3\n,hindi=4\n,telgu=5")
+print(lan)
+a=int(input("click the above number for selecting your language"))
+if (a==1):
+    print("english")
+elif(a==2):
+     print("tamil")
+elif(a==3):
+    print("kannada")
+elif(a==4):
+     print("hindi")
+elif(a==5):
+     print("telugu")
+else:
+    print("unable to connect")
+if (a==1):
+    print("hw can i help you\n to contact customer care  press 1\n to check your order id press 2\nto ckeck your transaction id press 3\nto cancel you order press 4")
+elif(a==2):
+    print("உங்களுக்கு எப்படி உதவ முடியும்\n வாடிக்கையாளர் சேவையை தொடர்பு கொள்ள 1\nவாடிக்கையாளர் பராமரிப்பு பத்திரிகையை தொடர்பு கொள்ள\nஉங்கள் ஆர்டர் ஐடியை சரிபார்க்க 2 ஐ அழுத்தவும்\nஉங்கள் பரிவர்த்தனை ஐடியை சரிபார்க்க 3 ஐ அழுத்தவும்\nஉங்கள் ஆர்டரை ரத்து செய்ய 4 ஐ அழுத்தவும் ")
+elif(a==3):
+    print("ನಾನು ನಿನಗೆ ಹೇಗೆ ಸಹಾಯ ಮಾಡಲಿ\n ಕಸ್ಟಮರ್ ಕೇರ್ ಪ್ರೆಸ್ ಅನ್ನು ಸಂಪರ್ಕಿಸಲು 1\nನಿಮ್ಮ ಆರ್ಡರ್ ಐಡಿಯನ್ನು ಪರೀಕ್ಷಿಸಲು 2 ಒತ್ತಿರಿ\nನಿಮ್ಮ ವಹಿವಾಟಿನ ಐಡಿಯನ್ನು ಪರಿಶೀಲಿಸಲು 3 ಒತ್ತಿರಿ\nನಿಮ್ಮ ಆದೇಶವನ್ನು ರದ್ದುಗೊಳಿಸಲು 4 ಒತ್ತಿರಿ")
+elif(a==4):
+    print("मैं आपकी कैसे मदद कर सकता हूँ\n ग्राहक सेवा से जुड़ने के लिए 1 दबाएँ\n अपना ऑर्डर आईडी जांचने के लिए 2 दबाएं\nअपनी ट्रांजेक्शन आईडी चेक करने के लिए 3 दबाएं\nअपना ऑर्डर रद्द करने के लिए 4 दबाएँ")
+elif(a==5):
+    print("నేను మీకు ఏవిధంగా సహాయపడగలను\n కస్టమర్ కేర్‌ను కనెక్ట్ చేయడానికి 1 నొక్కండి\n మీ ఆర్డర్ ఐడిని తనిఖీ చేయడానికి 2 నొక్కండి\nమీ ట్రాకింగ్ ఐడిని తనిఖీ చేయడానికి 3 \nమీ ఆర్డర్‌ను రద్దు చేయడానికి 4 నొక్కండి")
+else:
+    print("unable to connect")
+b=int(input("enter the above number"))
+if(a==1):
+    if(b==1):
+        print("please hold connecting your call to customer care")
+    elif(b==2):
+        print("checking your order id")
+    elif(b==3):
+         print("ckecking your transation id")
+    elif(b==4):
+          print("canceling your order")
+else:
+    print("*******")
+if(a==2):
+    if(b==1):
+        print("உங்கள் அழைப்பை வாடிக்கையாளர் சேவையுடன் இணைக்கவும்")
+    elif(b==2):
+        print("உங்கள் ஆர்டர் ஐடியை சரிபார்க்கிறது")
+    elif(b==3):
+        print("உங்கள் பரிவர்த்தனை ஐடியை சரிபார்க்கிறது")
+    elif(b==4):
+         print("உங்கள் ஆர்டரை ரத்து செய்கிறேன்")
+else:
+     print("*******")
+if(a==3):
+    if(b==1):
+        print("ನಿಮ್ಮ ಕರೆಯನ್ನು ಹಿಡಿದುಕೊಳ್ಳಿ. ಗ್ರಾಹಕ ಆರೈಕೆಗೆ ಸಂಪರ್ಕಿಸಲಾಗುತ್ತಿದೆ")
+    elif(b==2):
+         print("ನಿಮ್ಮ ಆರ್ಡರ್ ವಿವರಗಳನ್ನು ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ")
+    elif(b==3):
+         print("ನಿಮ್ಮ ವಹಿವಾಟು ಐಡಿಯನ್ನು ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ")
+    elif(b==4):
+          print("ನಿಮ್ಮ ಆದೇಶವನ್ನು ರದ್ದುಗೊಳಿಸಲಾಗುತ್ತಿದೆ")
+else:
+    print("*******")
+if(a==4):
+    if(b==1):
+        print("कृपया अपनी कॉल को ग्राहक सेवा से जोड़ते रहें")
+    elif(b==2):
+        print("आपकी ऑर्डर आईडी की जाँच की जा रही है")
+    elif(b==3):
+        print("आपकी लेनदेन आईडी की जाँच की जा रही है")
+    elif(b==4):
+         print("अपना ऑर्डर रद्द कर रहा हूँ")
+else:
+    print("******")
+if(a==5):
+    if(b==1):
+        print("దయచేసి వేచి ఉండండి. మీ కాల్‌ని కస్టమర్ కేర్‌కి కనెక్ట్ చేస్తోంది")
+    elif(b==2):
+        print("మీ ఆర్డర్ ఐడిని తనిఖీ చేయండి")
+    elif(b==3):
+        print("మీ లావాదేవీ ఐడిని తనిఖీ చేయండి")
+    elif(b==4):
+        print("మీ ఆర్డర్‌ని రద్దు చేస్తోంది")
+else:
+    print("********")
